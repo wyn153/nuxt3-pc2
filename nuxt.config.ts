@@ -41,7 +41,7 @@ export default defineNuxtConfig({
   },
 
   // You can define the CSS files/modules/libraries you want to set globally (included in every page).
-  css: ["~/assets/css/index.scss"],
+  css: ["~/public/css/index.scss"],
 
   // An array of nuxt app plugins.
   plugins: ["~/plugins/array"],
@@ -63,5 +63,8 @@ export default defineNuxtConfig({
       API_URL: process.env.API_URL,
     },
   },
-  target: "server",
+  target: "static",
+  generate: {
+    routes: ["/"],
+  },
 });
