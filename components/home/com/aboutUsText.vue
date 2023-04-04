@@ -8,7 +8,7 @@
 -->
 <template>
   <div class="aboutUsText">
-    <img src="/imgs/home/aboutUsTitle.png" alt="" />
+    <img src="https://observe.zyf.life/safety_association_nuxt/imgs/home/aboutUsTitle.png" alt="" />
     <div class="content">
       {{ aboutUsText }}
     </div>

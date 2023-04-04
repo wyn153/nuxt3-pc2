@@ -18,7 +18,7 @@
           align="center"
         ></el-table-column>
       </el-table>
-      <!-- <img src="/static/imgs/membershipEnquiry/enquiry.png" alt="" /> -->
+      <!-- <img src="/statichttps://observe.zyf.life/safety_association_nuxt/imgs/membershipEnquiry/enquiry.png" alt="" /> -->
     </div>
   </div>
 </template>

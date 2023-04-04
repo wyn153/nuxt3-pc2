@@ -8,13 +8,7 @@
 -->
 <template>
   <div class="swiperWheel">
-    <swiper
-      class="swiperWheel_table"
-      :modules="modules"
-      :loop="true"
-      :autoplay="{ disableOnInteraction: false }"
-      :slides-per-view="4"
-    >
+    <swiper class="swiperWheel_table" :modules="modules" :loop="true" :autoplay="{ disableOnInteraction: false }" :slides-per-view="4">
       <swiper-slide v-for="(item, index) in swiperImgs" :key="index">
         <div class="li">
           <img :src="item.url" alt="" @click="onClickList(item.id)" />
@@ -48,7 +42,7 @@ const onClickList = (id) => {
     });
   } else {
     router.push({
-      path: "/home",
+      path: "/safety_association_nuxt/home",
       // name: 'home',
       query: {
         id: id,

@@ -12,7 +12,7 @@ export const htmlList2 = `
 <p style="text-align: center"><br /></p>
 <p style="text-align: center; line-height: 1.5">
   <img
-    src="/imgs/detail/one.png"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/one.png"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
@@ -25,7 +25,7 @@ export const htmlList2 = `
 </p>
 <p style="text-align: center; line-height: 1.5; margin-top:20px;">
   <img
-    src="/imgs/detail/001.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/001.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
@@ -43,7 +43,7 @@ export const htmlList2 = `
 </p>
 <p style="text-align: center; line-height: 1.5; margin-top:20px;">
   <img
-    src="/imgs/detail/002.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/002.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
@@ -54,29 +54,29 @@ export const htmlList2 = `
 </p>
 <p style="text-align: center; line-height: 1.5; margin-top:20px;">
   <img
-    src="/imgs/detail/003.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/003.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
   />
   <img
-    src="/imgs/detail/004.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/004.jfif"
     data-href=""
     style="width: 600px; margin:0 auto"
   />
   <img
-    src="/imgs/detail/005.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/005.jfif"
     data-href=""
     style="width: 600px; margin:0 auto"
   />
   <img
-    src="/imgs/detail/006.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/006.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
   />
   <img
-    src="/imgs/detail/007.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/007.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
@@ -89,7 +89,7 @@ export const htmlList2 = `
 </p>
 <p style="text-align: center; line-height: 1.5; margin-top:20px;">
   <img
-    src="/imgs/detail/008.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/008.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"
@@ -102,7 +102,7 @@ export const htmlList2 = `
 </p>
 <p style="text-align: center; line-height: 1.5; margin-top:20px;">
   <img
-    src="/imgs/detail/009.jfif"
+    src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/009.jfif"
     alt="图片"
     data-href=""
     style="width: 600px; margin:0 auto"

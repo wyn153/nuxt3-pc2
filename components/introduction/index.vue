@@ -6,31 +6,31 @@
         <IntroductionComAboutUs></IntroductionComAboutUs>
       </div>
       <div class="in-title organization-title">
-        <img src="/imgs/introduction/title2.png" alt="" />
+        <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/title2.png" alt="" />
         组织架构
       </div>
       <div class="in-organization">
         <IntroductionComOrganization></IntroductionComOrganization>
       </div>
       <div class="in-title serviceAim-title">
-        <img src="/imgs/introduction/title3.png" alt="" />
+        <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/title3.png" alt="" />
         服务宗旨
       </div>
       <div><IntroductionComServiceAim></IntroductionComServiceAim></div>
       <div class="in-title committee-title">
-        <img src="/imgs/introduction/title4.png" alt="" />
+        <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/title4.png" alt="" />
         常设委员会
       </div>
       <div class="in-committee">
         <IntroductionComCommittee></IntroductionComCommittee>
       </div>
       <div class="in-title standingBody-title">
-        <img src="/imgs/introduction/title5.png" alt="" />
+        <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/title5.png" alt="" />
         常设机构
       </div>
       <div class="standingBody">
         <div>
-          <img src="/imgs/introduction/standingBody.png" alt="" />
+          <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/standingBody.png" alt="" />
         </div>
         <div><IntroductionComMapModule></IntroductionComMapModule></div>
       </div>

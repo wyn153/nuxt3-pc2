@@ -24,7 +24,7 @@ const router = useRouter();
 
 const onClickList = (id) => {
   router.push({
-    path: "/industryNews",
+    path: "/safety_association_nuxt/industryNews",
     // name: 'home',
     query: {
       id: id,

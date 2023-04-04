@@ -6,58 +6,58 @@ import { defineStore } from "pinia";
 export const useCommon = defineStore("common", {
   state: () => {
     return {
-      bannerImg: "imgs/common/banner.png",
+      bannerImg: "https://observe.zyf.life/safety_association_nuxt/imgs/common/banner.png",
       selectNavIndex: 0,
       headerNav: [
         {
           title: "首页",
-          routeName: "home",
-          routeUrl: "/home",
+          routeName: "safety_association_nuxt-home",
+          routeUrl: "/safety_association_nuxt/home",
         },
         {
           title: "协会简介",
-          routeName: "introduction",
-          routeUrl: "/introduction",
+          routeName: "safety_association_nuxt-introduction",
+          routeUrl: "/safety_association_nuxt/introduction",
         },
         {
           title: "行业新闻",
-          routeName: "industryNews",
-          routeUrl: "/industryNews",
+          routeName: "safety_association_nuxt-industryNews",
+          routeUrl: "/safety_association_nuxt/industryNews",
         },
         {
           title: "通知公告",
-          routeName: "noticeAnnouncement",
-          routeUrl: "/noticeAnnouncement",
+          routeName: "safety_association_nuxt-noticeAnnouncement",
+          routeUrl: "/safety_association_nuxt/noticeAnnouncement",
         },
         {
           title: "政策法规",
-          routeName: "policiesRegulations",
-          routeUrl: "/policiesRegulations",
+          routeName: "safety_association_nuxt-policiesRegulations",
+          routeUrl: "/safety_association_nuxt/policiesRegulations",
         },
         {
           title: "技术标准",
-          routeName: "technicalStandard",
-          routeUrl: "/technicalStandard",
+          routeName: "safety_association_nuxt-technicalStandard",
+          routeUrl: "/safety_association_nuxt/technicalStandard",
         },
         {
           title: "教育培训",
-          routeName: "educationTraining",
-          routeUrl: "/educationTraining",
+          routeName: "safety_association_nuxt-educationTraining",
+          routeUrl: "/safety_association_nuxt/educationTraining",
         },
         {
           title: "会员查询",
-          routeName: "membershipEnquiry",
-          routeUrl: "/membershipEnquiry",
+          routeName: "safety_association_nuxt-membershipEnquiry",
+          routeUrl: "/safety_association_nuxt/membershipEnquiry",
         },
         {
           title: "诚信建设",
-          routeName: "integrityConstruction",
-          routeUrl: "/integrityConstruction",
+          routeName: "safety_association_nuxt-integrityConstruction",
+          routeUrl: "/safety_association_nuxt/integrityConstruction",
         },
         {
           title: "房屋医院",
-          routeName: "houseHospital",
-          routeUrl: "/houseHospital",
+          routeName: "safety_association_nuxt-houseHospital",
+          routeUrl: "/safety_association_nuxt/houseHospital",
         },
       ],
     };

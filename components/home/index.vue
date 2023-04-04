@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="row row5">
-        <img src="/imgs/common/footer.png" alt="" />
+        <img src="https://observe.zyf.life/safety_association_nuxt/imgs/common/footer.png" alt="" />
       </div>
     </div>
     <div class="homeDetail" v-else>
@@ -38,9 +38,9 @@
 <script setup>
 const route = useRoute();
 const routeId = ref(null);
-const { data: count } = await useFetch("http://10.201.97.29:9099/api/getMemberManageList");
+// const { data: count } = await useFetch("http://10.201.97.29:9099/api/getMemberManageList");
 onMounted(() => {
-  console.log(count, "count");
+  // console.log(count, "count");
 });
 watch(
   () => route.query.id,
@@ -63,7 +63,7 @@ watch(
 .home {
   width: 100%;
   .row {
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;

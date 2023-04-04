@@ -9,21 +9,21 @@ export const useIntroduction = defineStore("introduction", {
         {
           id: 1,
           title: "会员单位",
-          icon: "imgs/introduction/aboutUs1.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/aboutUs1.png",
           number: 99,
           state: "家",
         },
         {
           id: 2,
           title: "理事单位",
-          icon: "imgs/introduction/aboutUs2.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/aboutUs2.png",
           number: 32,
           state: "家",
         },
         {
           id: 3,
           title: "会长副会长单位",
-          icon: "imgs/introduction/aboutUs3.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/aboutUs3.png",
           number: 10,
           state: "家",
         },
@@ -62,19 +62,19 @@ export const useIntroduction = defineStore("introduction", {
       ],
       serviceAimList: [
         {
-          icon: "imgs/introduction/serviceAim1.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/serviceAim1.png",
           text: "坚持“人民城市人民建、人民城市为人民”重要理念，一切核心是人民;",
         },
         {
-          icon: "imgs/introduction/serviceAim2.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/serviceAim2.png",
           text: "积极协助业务主管部门做好对本行业标准规范的实施和监督,提高会员单位的业务和技术应用水平促进高新技术成果的转化和应用,促进行业标准向国际化标准靠拢为城市经济建设发展服务;",
         },
         {
-          icon: "imgs/introduction/serviceAim3.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/serviceAim3.png",
           text: "遵守我国宪法、法律、法规、国家政策,践行社会主义核心价值观，遵守社会道德风尚,贯彻党和国家的方针政策;",
         },
         {
-          icon: "imgs/introduction/serviceAim4.png",
+          icon: "https://observe.zyf.life/safety_association_nuxt/imgs/introduction/serviceAim4.png",
           text: "遵守我国宪法、法律、法规、国家政策,践行社会主义核心价值观，遵守社会道德风尚,贯彻党和国家的方针政策;",
         },
       ],

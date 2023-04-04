@@ -39,7 +39,7 @@ onMounted(() => {
 
 <style lang="less" scoped>
 .industryNews {
-  min-width: 1200px;
+  // min-width: 1200px;
   // height: 80vh;
   min-height: calc(100vh - 410px);
   // margin: auto;

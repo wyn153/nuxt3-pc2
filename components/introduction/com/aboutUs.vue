@@ -2,7 +2,7 @@
 <template>
   <div class="aboutUs">
     <div class="introduction-title">
-      <img src="/imgs/introduction/titleUse.png" alt="" />
+      <img src="https://observe.zyf.life/safety_association_nuxt/imgs/introduction/titleUse.png" alt="" />
       <!-- <span>关于我们</span> -->
     </div>
     <div class="aboutUs-content">

@@ -34,7 +34,7 @@ const clickNav = (item) => {
   console.log(item.routeName, "item");
   // onReload()
   const { title, routeName, routeUrl } = item;
-  if (routeName === "houseHospital") {
+  if (routeName === "safety_association_nuxt-houseHospital") {
     window.open("http://114.219.56.63:8086/#/");
     return;
   }

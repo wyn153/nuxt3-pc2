@@ -7,59 +7,59 @@ export const useHome = defineStore("home", {
       aboutUsImgs: [
         {
           id: "2",
-          url: "imgs/home/swiper01.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper01.png",
         },
         {
           id: "1",
-          url: "imgs/home/swiper03.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper03.png",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
         },
       ],
       aboutUsText: {
-        titleUrl: "imgs/home/aboutUsTitle.png",
+        titleUrl: "https://observe.zyf.life/safety_association_nuxt/imgs/home/aboutUsTitle.png",
         content: `苏州市房屋安全协会由苏州市住房和城乡建设局主管，由在本市从事房屋安全鉴定、房屋结构加固、白蚁防治、建筑幕墙、房屋消防安全、绿色低碳节能建筑、科研机构及高等院校等单位组成的具有法人资格的专业性社团组织。截止目前，会员单位共99家。且按章程产生了理事单位32家，会长副会长单位10家。`,
       },
       swiperImgs: [
         {
           id: "2",
-          url: "imgs/home/swiper01.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper01.png",
           desc: "全国首创！苏州市房屋安全医院来了",
         },
         {
           id: "1",
-          url: "imgs/home/swiper03.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper03.png",
           desc: "苏州市房屋安全协会第一届第一次理事会议",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
           desc: "标题",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
           desc: "标题",
         },
         {
           id: "0",
-          url: "imgs/home/swiper07.png",
+          url: "https://observe.zyf.life/safety_association_nuxt/imgs/home/swiper07.png",
           desc: "标题",
         },
       ],
       // 教育培训
       examinationTraining: {
-        titleUrl: "imgs/home/examinationTraining.png",
+        titleUrl: "https://observe.zyf.life/safety_association_nuxt/imgs/home/examinationTraining.png",
         list: [
           {
             desc: "关于房屋安全鉴定员继续教育的通知续教知（教知穗房鉴教知穗房鉴）",
@@ -77,7 +77,7 @@ export const useHome = defineStore("home", {
       },
       // 通知公告
       noticeAnnouncement: {
-        titleUrl: "imgs/home/noticeAnnouncement.png",
+        titleUrl: "https://observe.zyf.life/safety_association_nuxt/imgs/home/noticeAnnouncement.png",
         list: [
           {
             type: "要闻",
@@ -113,7 +113,7 @@ export const useHome = defineStore("home", {
       },
       // 政策法规
       policiesRegulations: {
-        titleUrl: "imgs/home/policiesRegulations.png",
+        titleUrl: "https://observe.zyf.life/safety_association_nuxt/imgs/home/policiesRegulations.png",
         list: [
           {
             desc: "市支援合作工作领导小组全体会议召开",
@@ -143,7 +143,7 @@ export const useHome = defineStore("home", {
       },
       // 技术标准
       technicalStandard: {
-        titleUrl: "imgs/home/technicalStandard.png",
+        titleUrl: "https://observe.zyf.life/safety_association_nuxt/imgs/home/technicalStandard.png",
         list: [
           {
             desc: "既有建筑幕墙安全检查技术规（DB440..2022-04-13",

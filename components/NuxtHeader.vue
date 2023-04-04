@@ -1,7 +1,9 @@
 <template>
-  <div class="header">
-    <div class="header_img">
-      <img :src="bannerImg" alt="" />
+  <div>
+    <div class="header">
+      <div class="header_img">
+        <img :src="bannerImg" alt="" />
+      </div>
     </div>
     <HeaderNav></HeaderNav>
   </div>
@@ -9,16 +11,16 @@
 
 <script setup>
 // import HeaderNav from "./headerNav.vue";
-import { useCommon } from '@/store/common'
-const commonStore = useCommon()
-const bannerImg = computed(() => commonStore.bannerImg)
+import { useCommon } from "@/store/common";
+const commonStore = useCommon();
+const bannerImg = computed(() => commonStore.bannerImg);
 // const bannerImg = ''
-onMounted(() => {})
+onMounted(() => {});
 </script>
 
 <style lang="less">
 .header {
-  width: 100%;
+  margin: 0 auto;
   .header_img {
     width: 100%;
     height: 260px;

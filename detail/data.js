@@ -14,7 +14,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2;margin-top:5px;">
 <img
-  src="/imgs/detail/data001.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data001.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -32,7 +32,7 @@ export const htmlList = `
 </p>
 <h1 style="text-indent: 2em; text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data002.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data002.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -53,7 +53,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data003.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data003.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -61,7 +61,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data004.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data004.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -77,7 +77,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data005.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data005.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -90,7 +90,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data006.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data006.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -98,7 +98,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data007.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data007.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -117,7 +117,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data008.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data008.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -130,7 +130,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data009.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data009.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -147,7 +147,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data010.png"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data010.png"
   alt=""
   data-href=""
   style="margin:0 auto"
@@ -161,7 +161,7 @@ export const htmlList = `
 </p>
 <p style="text-align: center; line-height: 2">
 <img
-  src="/imgs/detail/data011.jpg"
+  src="https://observe.zyf.life/safety_association_nuxt/imgs/detail/data011.jpg"
   alt=""
   data-href=""
   style="margin:0 auto"

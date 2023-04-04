@@ -31,7 +31,7 @@ const onClickList = (id) => {
     });
   } else {
     router.push({
-      path: "/home",
+      path: "/safety_association_nuxt/home",
       // name: 'home',
       query: {
         id: id,

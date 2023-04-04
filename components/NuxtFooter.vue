@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <img class="footer-img" src="/imgs/common/flag.png" alt="" />
+    <img class="footer-img" src="https://observe.zyf.life/safety_association_nuxt/imgs/common/flag.png" alt="" />
     <div class="footer-b">
       <div>
         <p>主办单位：苏州市房屋安全协会</p>
