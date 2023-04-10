@@ -4,6 +4,7 @@ import { defineStore } from "pinia";
 export const useHome = defineStore("home", {
   state: () => {
     return {
+      listIN: { ID: "空" },
       aboutUsImgs: [
         {
           id: "2",
@@ -174,23 +175,17 @@ export const useHome = defineStore("home", {
     };
   },
   actions: {
+    getApiHome() {
+      this.test();
+    },
     test() {
-      //   request({
-      //     url: '/test',
-      //     isParams: true,
-      //     method: 'get',
-      //     data: {}
-      //   })
-      //     .then(({ data }) => {
-      //       // console.log('test', data)
-      //       if (!isEmpty(data)) {
-      //         return true
-      //       }
-      //     })
-      //     .catch((e) => {
-      //       console.log('test', e)
-      //       return false
-      //     })
+      getTags()
+        .then((res) => {
+          this.listIN = res.value.data;
+        })
+        .catch((err) => {
+          console.log(err, "错误");
+        });
     },
   },
 });

@@ -67,4 +67,14 @@ export default defineNuxtConfig({
   generate: {
     routes: ["/"],
   },
+  server: false, // 不开启服务端渲染
+  nitro: {
+    devProxy: {
+      "/api": {
+        target: "https://observe.zyf.life", // 这里是接口地址
+        changeOrigin: true,
+        prependPath: true,
+      },
+    },
+  },
 });

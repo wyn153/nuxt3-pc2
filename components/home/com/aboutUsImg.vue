@@ -34,7 +34,7 @@ const onClickList = (id) => {
       path: "/safety_association_nuxt/home",
       // name: 'home',
       query: {
-        id: id,
+        id,
       },
     });
   }

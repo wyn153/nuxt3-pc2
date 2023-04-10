@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <NuxtHeader /> -->
-    <div class="home" v-if="!routeId">
+    <div v-if="!routeId" class="home">
       <!-- <div class="home" > -->
       <div class="row row1">
         <div class="wrapper">
@@ -28,7 +28,7 @@
         <img src="https://observe.zyf.life/safety_association_nuxt/imgs/common/footer.png" alt="" />
       </div>
     </div>
-    <div class="homeDetail" v-else>
+    <div v-else class="homeDetail">
       <HomeComDetail />
     </div>
     <!-- <NuxtFooter /> -->
@@ -36,17 +36,28 @@
 </template>
 
 <script setup>
+import { useHome } from "@/store/home";
 const route = useRoute();
 const routeId = ref(null);
-// const { data: count } = await useFetch("http://10.201.97.29:9099/api/getMemberManageList");
-onMounted(() => {
-  // console.log(count, "count");
-});
+const homeStore = useHome();
+// const list = computed(() => homeStore.listIN);
+const listID = ref(null);
+const inApi = () => {
+  console.log(listID.value, "listIDvalue");
+};
+onMounted(() => {});
+watch(
+  () => homeStore.listIN,
+  (val) => {
+    listID.value = val;
+    inApi();
+  },
+  { deep: true, immediate: true },
+);
 watch(
   () => route.query.id,
   (val) => {
     routeId.value = val;
-    // console.log(val, src.value);
   },
   {
     immediate: true,

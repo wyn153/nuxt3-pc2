@@ -8,8 +8,8 @@
 <script setup>
 import { htmlList } from "@/detail/data";
 import { htmlList2 } from "@/detail/data2";
-let html1 = ref(htmlList);
-let html2 = ref(htmlList2);
+const html1 = ref(htmlList);
+const html2 = ref(htmlList2);
 const htmlLabels = ref(null);
 const route = useRoute();
 const routeId = ref(route.query.id);
@@ -19,10 +19,10 @@ const routeId = ref(route.query.id);
 // })
 // let { srcId } = toRefs(props)
 onMounted(() => {
-  if (routeId.value == "1") {
+  if (routeId.value === "1") {
     htmlLabels.value = html1.value; // 大会
   }
-  if (routeId.value == "2") {
+  if (routeId.value === "2") {
     htmlLabels.value = html2.value; // 医院来了
   }
 });

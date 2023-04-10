@@ -6,18 +6,17 @@
   </div>
 </template>
 <script setup>
+import { useHome } from "@/store/home";
+const homeStore = useHome();
+
 onMounted(() => {
-  // if (typeof window !== "undefined") {
-  //   const percentageOn1 = (window.screen.width / 1920) * 170;
-  //   document.body.style.zoom = percentageOn1 + "%";
-  //   document.body.style.fontSize = "9px";
-  // }
   const appHeight = () => {
     const doc = document.documentElement;
     doc.style.setProperty("--app-height", `${window.innerHeight}px`);
   };
   window.addEventListener("resize", appHeight);
   appHeight();
+  homeStore.getApiHome();
 });
 </script>
 <style lang="less">
