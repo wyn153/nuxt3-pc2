@@ -2,10 +2,10 @@
   <div>
     <!-- <NuxtHeader /> -->
     <div class="industryNews">
-      <div class="articleList" v-if="!routeId">
+      <div v-if="!routeId" class="articleList">
         <IndustryNewsComArticleList />
       </div>
-      <div class="articleDetail" v-else>
+      <div v-else class="articleDetail">
         <IndustryNewsComArticleDetail />
       </div>
     </div>
@@ -33,6 +33,12 @@ watch(
   },
 );
 onMounted(() => {
+  // const appHeight = () => {
+  //   const doc = document.documentElement;
+  //   doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+  // };
+  // window.addEventListener("resize", appHeight);
+  // appHeight();
   // console.log('执行了', src.value);
 });
 </script>
@@ -41,9 +47,11 @@ onMounted(() => {
 .industryNews {
   // min-width: 1200px;
   // height: 80vh;
-  min-height: calc(100vh - 410px);
+  // min-height: calc(100vh - 410px);
   // margin: auto;
   // width: 100%;
+  min-height: calc(var(--app-height) - 410px);
+  // height: -webkit-fill-available;
   display: flex;
   justify-content: center;
 }

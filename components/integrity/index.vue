@@ -15,5 +15,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  min-height: calc(var(--app-height) - 410px);
+  // height: -webkit-fill-available;
 }
 </style>

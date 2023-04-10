@@ -21,7 +21,7 @@ const headerNav = computed(() => commonStore.headerNav);
 watch(
   () => route.name,
   (val) => {
-    let index = headerNav.value.findIndex((f) => f.routeName == val);
+    const index = headerNav.value.findIndex((f) => f.routeName === val);
     commonStore.setSelectNavIndex(index);
   },
   {
@@ -30,10 +30,12 @@ watch(
 );
 // const onReload = inject("reload")
 const clickNav = (item) => {
-  console.log(selectNavIndex.value, "selectNavIndex");
-  console.log(item.routeName, "item");
+  // console.log(selectNavIndex.value, "selectNavIndex");
+  // console.log(item.routeName, "item");
   // onReload()
   const { title, routeName, routeUrl } = item;
+  console.log(title, "item");
+
   if (routeName === "safety_association_nuxt-houseHospital") {
     window.open("http://114.219.56.63:8086/#/");
     return;
